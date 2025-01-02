@@ -1,4 +1,4 @@
-baseURL = 'https://quint-theme-demo.netlify.app/'
+baseURL = 'https://jlruan.me/'
 languageCode = 'en-us'
 title = 'Joseph Ruan'
 theme = "quint"
@@ -34,8 +34,6 @@ contact = "You can write me an [email](mailto:me)."
     url = "https://github.com/jlruan"
     icon = "/social/github.svg"
     name = "GitHub"
-
-
 
 [services]
   [services.googleAnalytics]
