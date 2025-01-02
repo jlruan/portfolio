@@ -34,3 +34,10 @@ contact = "You can write me an [email](mailto:me)."
     url = "https://github.com/jlruan"
     icon = "/social/github.svg"
     name = "GitHub"
+
+
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-Z5R5Y38B1H'
+
