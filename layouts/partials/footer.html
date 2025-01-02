@@ -1,0 +1,7 @@
+<footer>
+    <div class="social-media">
+        {{ range site.Params.social}}
+            <a href="{{ .url }}"><img alt="{{ .name }}" src="{{ .icon }}"/></a>
+        {{ end }}
+    </div>
+</footer>

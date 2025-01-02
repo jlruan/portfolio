@@ -18,3 +18,14 @@ a {
 a:hover, a:focus {
     color: var(--primary-text);
 }
+
+/* Hero Section Styles */
+.hero {
+    background-size: cover;
+    min-height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
