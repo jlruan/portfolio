@@ -5,7 +5,7 @@ draft: false
 image: '../images/miso.jpeg'
 description:
 ---
-I founded a FIRST Robotics Competition team senior year while designing and programming a robot that ranked in the top 0.5% offensively worldwide.
+I founded a FIRST Robotics Competition team senior year while designing and programming a robot that ranked 20th offensively worldwide while competing.
 
 ## What I Did
 
