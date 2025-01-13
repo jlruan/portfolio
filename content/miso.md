@@ -1,5 +1,5 @@
 ---
-title: "Miso Mechanics 9442"
+title: "Miso Mechanics 9442 (2024)"
 date: 2024-04-25T00:02:45-08:00
 draft: false
 image: '../images/miso.jpeg'
