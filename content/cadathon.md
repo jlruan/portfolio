@@ -1,7 +1,7 @@
 ---
 title: "1618 Ratio (2023 Cadathon Winner) "
 date: 2024-01-04T20:38:30-05:00
-draft: true
+draft: false
 image: '../images/1618.png'
 description:
 ---
