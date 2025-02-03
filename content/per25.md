@@ -17,5 +17,4 @@ I designed the harness tabs using NX to optimize harness ergonomics for our prim
 
 {{< video
   src="/videos/per.mp4"
-  width="600"
 >}}

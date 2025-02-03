@@ -13,5 +13,4 @@ I'm currently working on a real-time obstacle avoidance algorithim with SIMD-gen
 
 {{< video
   src="/videos/comma.mp4"
-  width="600"
 >}}

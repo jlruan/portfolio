@@ -13,7 +13,6 @@ I also developed localization systems using PhotonVision to detect fiducials and
 
 {{< video
   src="/videos/miso_auto.mp4"
-  width="600"
 >}}
 
 I also designed multiple subsystems and gearboxes on our award-winning competition robot, reducing part count by up to 72% in some mechanisms which greatly improved ease of assembly. 

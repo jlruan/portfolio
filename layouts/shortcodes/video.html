@@ -5,7 +5,7 @@
 {{ $poster := .Get "poster" -}}
 {{ $preload := .Get "preload" | default "metadata" -}}
 {{ $src := .Get "src" -}}
-{{ $width := .Get "width" -}}
+{{ $width := .Get "width" | default "100%" -}}
 
 {{ $posterres := false -}}
 {{ $resource := false -}}
