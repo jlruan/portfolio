@@ -1,5 +1,5 @@
 ---
-title: "CoMMA Lab (Zachary Kingston)    "
+title: "CoMMA Lab (Zachary Kingston)"
 date: 2025-01-24T00:23:20-08:00
 draft: false
 image: '../images/comma.jpeg'
