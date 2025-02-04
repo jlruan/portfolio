@@ -12,8 +12,9 @@ Our approach was to generate a point cloud and then use RANSAC to identify the g
 {{< video
   src="/videos/lac.mp4"
 >}}
-We're currently competing so I'll update this page as the competition progresses.
 
+We then used odometry data from ORB_SLAM3 to localize our mapping, providing high-quality location data through both stereo and monocular cameras.
 
 ![LAC1](/images/lac.png)
 
+We're currently working on integrating image compression & ROS2. Check back soon for more updates!
