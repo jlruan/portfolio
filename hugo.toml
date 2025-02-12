@@ -17,13 +17,18 @@ numImages = 10                      # Number of random images to choose from for
 
 [[params.social]]                 # Customize your social links below!
     url = "https://linkedin.com/in/jlruan"
-    icon = "/social/linkedin.png"
+    icon = "/social/linkedin.svg"
     name = "LinkedIn"
 
 [[params.social]]
     url = "https://github.com/jlruan"
     icon = "/social/github.svg"
     name = "GitHub"
+
+[[params.social]]
+    url = "/RuanJosephResume.pdf"
+    icon = "/social/doc.svg"
+    name = "Resume"
 
 [services]
   [services.googleAnalytics]

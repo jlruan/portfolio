@@ -3,7 +3,7 @@
         --primary-bg: #252627;
         --primary-text: #fff;
         --secondary-text: #fefefe;
-        --link-color: #b8bcc0;
+        --link-color: #CFB991;
     }
     img {
         opacity: 90%;
@@ -16,13 +16,13 @@ a {
 }
 
 a:hover, a:focus {
-    color: var(--primary-text);
+    color: var(--link-color);
 }
 
 /* Hero Section Styles */
 .hero {
     background-size: cover;
-    min-height: 20vw;
+    min-height: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
