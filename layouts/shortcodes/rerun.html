@@ -1,0 +1,12 @@
+{{- $height := .Get "height" | default "500px" -}} <!-- Default height -->
+{{- $width := .Get "width" | default "100%" -}} <!-- Default width -->
+{{- $version := .Get "version" -}}
+{{- $url := .Get "url" -}}
+
+{{ if not $version }}
+  {{ warnf "The 'version' parameter is required for the reruniframe shortcode." }}
+{{ else if not $url }}
+  {{ warnf "The 'url' parameter is required for the reruniframe shortcode." }}
+{{ else }}
+  <iframe src="https://app.rerun.io/version/{{ $version }}/?url={{ $url }}" width="{{ $width }}" height="{{ $height }}" frameborder="0"></iframe>
+{{ end }}

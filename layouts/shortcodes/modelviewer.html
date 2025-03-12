@@ -1,0 +1,12 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $width := .Get "width" | default "100%" -}} <!-- Default to 100% width -->
+{{- $height := .Get "height" | default "1000px" -}}
+
+{{ if not $src }}
+  {{ warnf "The 'src' parameter is required for the modelviewer shortcode." }}
+{{ else }}
+  <div class="centered-model">
+    <model-viewer src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" auto-rotate camera-controls></model-viewer>
+  </div>
+{{ end }}

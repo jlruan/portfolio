@@ -33,3 +33,21 @@ a:hover, a:focus {
 .card img {
     box-shadow: none !important;
 }
+
+.centered-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  model-viewer {
+    display: block; /* Ensure it behaves like a block-level element */
+  }
+  
+  iframe {
+    max-width: 100%;
+    border: none;
+  }
+  

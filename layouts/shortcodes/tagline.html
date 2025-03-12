@@ -1,0 +1,54 @@
+<div id="tagline-container">
+    <p id="random-tagline">Loading tagline...</p>  <!-- Placeholder text -->
+  </div>
+  
+  <style>
+    #tagline-container p {
+      transition: opacity 0.5s ease-in-out;
+      opacity: 1;
+    }
+  
+    #tagline-container p.fade-out {
+      opacity: 0;
+    }
+  </style>
+  
+  <script>
+    // Function to fetch the taglines from /static/taglines.json
+    function fetchTaglines() {
+      fetch("/taglines.json")
+        .then(response => response.json())  // Parse the JSON response
+        .then(taglines => {
+          let currentIndex = 0;
+          
+          // Function to change the tagline every 5 seconds
+          function changeTagline() {
+            const taglineElement = document.getElementById('random-tagline');
+            
+            // Add fade-out effect
+            taglineElement.classList.add('fade-out');
+            
+            // Wait for the fade-out animation to finish (500ms)
+            setTimeout(() => {
+              currentIndex = (currentIndex + 1) % taglines.length;  // Increment the index and loop back
+              taglineElement.innerText = taglines[currentIndex];  // Update the text
+              taglineElement.classList.remove('fade-out');  // Remove fade-out class to fade in
+            }, 500);  // Wait for the fade-out to finish (500ms)
+          }
+          
+          // Change the tagline every 5 seconds
+          setInterval(changeTagline, 5000);
+          
+          // Display the first tagline immediately with fade-in
+          changeTagline();
+        })
+        .catch(error => {
+          console.error("Error loading taglines:", error);
+          document.getElementById('random-tagline').innerText = "Error loading taglines.";
+        });
+    }
+  
+    // Call the function to fetch taglines
+    fetchTaglines();
+  </script>
+  

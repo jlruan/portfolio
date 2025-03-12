@@ -13,8 +13,8 @@ Our approach was to generate a point cloud and then use RANSAC to identify the g
   src="/videos/lac.mp4"
 >}}
 
-We then used odometry data from ORB_SLAM3 to localize our mapping, providing high-quality location data through both stereo and monocular cameras.
+We then used odometry data from ORB_SLAM3 to localize our mapping, providing high-quality location data through both stereo and monocular cameras. We use this location and visual data on start to implement MPPI path rollouts to simulate the most productive way to map the lunar surface.
 
 ![LAC1](/images/lac.png)
 
-We're currently working on integrating image compression & ROS2. Check back soon for more updates!
+Unfortunately, all of our workstations encountered a catastrophic hardware bug in the form of the Intel 14900K failures. You can't make this shit up. Anyways, we intend to do better next year and hopefully be more organized!
