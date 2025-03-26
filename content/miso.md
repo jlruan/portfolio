@@ -7,7 +7,7 @@ description: 'I founded a FIRST Robotics Competition team senior year while desi
 ---
 During the 2024 season, I fundraised over $30K for competition and robot costs for my rookie FRC team that ended up ranking as high as #20 offensively.
 
-![EPA](/images/miso_epa.jpeg)
+![EPA](/images/miso_epa.webp)
 
 I also developed localization systems using PhotonVision to detect fiducials and game objectives and utilized it in autonomous routines, improving our localization by 32%. Combined with kinematically-feasible constraint-based path planning for autonomous, this improved our scoring by up to 25%. To reduce the fiscal burden of vision, I designed custom vision assemblies using commonly available global shutter camera modules reducing vision costs from $400 to $100 per unit.
 

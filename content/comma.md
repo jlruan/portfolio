@@ -2,7 +2,7 @@
 title: "CoMMA Lab (Zachary Kingston)"
 date: 2025-01-24T00:23:20-08:00
 draft: false
-image: '../images/comma.jpeg'
+image: '../images/comma.webp'
 description: "I worked on the bring-up and lab infrastructure for two new Franka Research 3 7-DOF robotic arms, and am currently developing a real-time obstacle avoidance demo. More..."
 ---
 I was part of the lab bring-up of Franka Research 3 arms, and implemented containerization for multiple control methods with and without ROS as well as designed network and infrastructure.

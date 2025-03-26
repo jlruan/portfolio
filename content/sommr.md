@@ -2,7 +2,7 @@
 title: "Soil Microbiome Measuring Robot"
 date: 2024-10-21T00:23:20-08:00
 draft: true
-image: '../images/soil.jpeg'
+image: '../images/soil.webp'
 description: 'I worked on a robot for the USDA and the Collaborative Robotics Lab at Purdue. I then planned and executed a field test at the USDA Ames National Laboratory. More...'
 ---
 
@@ -10,4 +10,4 @@ I used Onshape and SolidWorks to design the power/communications slip ring assem
 
 Here's us testing the robot at USDA Ames National Laboratory. (I'm controlling the robot and monitoring the data, I promise I'm not just being lazy!)
 
-![Field Test](/images/soil_test.jpeg)
+![Field Test](/images/soil_test.webp)
