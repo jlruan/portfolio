@@ -2,7 +2,7 @@
 title: "Miso Mechanics 9442 (2024)"
 date: 2024-04-25T00:02:45-08:00
 draft: false
-image: '../images/miso.jpeg'
+image: '../images/miso_field.webp'
 description: 'I founded a FIRST Robotics Competition team senior year while designing and programming a robot that ranked 20th offensively worldwide while competing. More...'
 ---
 During the 2024 season, I fundraised over $30K for competition and robot costs for my rookie FRC team that ended up ranking as high as #20 offensively.

@@ -1,7 +1,7 @@
 ---
 title: "Soil Microbiome Measuring Robot"
 date: 2024-10-21T00:23:20-08:00
-draft: false
+draft: true
 image: '../images/soil.jpeg'
 description: 'I worked on a robot for the USDA and the Collaborative Robotics Lab at Purdue. I then planned and executed a field test at the USDA Ames National Laboratory. More...'
 ---
