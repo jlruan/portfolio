@@ -3,3 +3,4 @@ node_modules
 hugo.deb
 */.DS_Store
 img_old/*
+.DS_Store

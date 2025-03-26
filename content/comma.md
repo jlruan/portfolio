@@ -5,6 +5,9 @@ draft: false
 image: '../images/comma.webp'
 description: "I worked on the bring-up and lab infrastructure for two new Franka Research 3 7-DOF robotic arms, and am currently developing a real-time obstacle avoidance demo. More..."
 ---
+
+{{< rerun version="0.22.1" url="https://jlruan.me/rerun/comma.rrd" >}}
+
 I was part of the lab bring-up of Franka Research 3 arms, and implemented containerization for multiple control methods with and without ROS as well as designed network and infrastructure.
 
 I wrote a custom containerization solution as part of high performance computing infrastructure used lab-wide by using Docker and bash to streamline the bring-up process for new projects involving our Franka arms.

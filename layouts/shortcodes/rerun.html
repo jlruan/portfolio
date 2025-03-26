@@ -4,9 +4,9 @@
 {{- $url := .Get "url" -}}
 
 {{ if not $version }}
-  {{ warnf "The 'version' parameter is required for the reruniframe shortcode." }}
+  {{ warnf "The 'version' parameter is required for the rerun shortcode." }}
 {{ else if not $url }}
-  {{ warnf "The 'url' parameter is required for the reruniframe shortcode." }}
+  {{ warnf "The 'url' parameter is required for the rerun shortcode." }}
 {{ else }}
   <iframe src="https://app.rerun.io/version/{{ $version }}/?url={{ $url }}" width="{{ $width }}" height="{{ $height }}" frameborder="0"></iframe>
 {{ end }}

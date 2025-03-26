@@ -5,6 +5,9 @@ draft: false
 image: '../images/miso_field.webp'
 description: 'I founded a FIRST Robotics Competition team senior year while designing and programming a robot that ranked 20th offensively worldwide while competing. More...'
 ---
+{{< modelviewer src="/models/9442.glb" alt="Description of the model" width="100%" >}}
+
+
 During the 2024 season, I fundraised over $30K for competition and robot costs for my rookie FRC team that ended up ranking as high as #20 offensively.
 
 ![EPA](/images/miso_epa.webp)
@@ -16,7 +19,6 @@ I also developed localization systems using PhotonVision to detect fiducials and
   src="/videos/miso_auto.mp4"
 >}}
 
-{{< modelviewer src="/models/9442.glb" alt="Description of the model" width="100%" >}}
 
 
 
