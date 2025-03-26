@@ -6,7 +6,7 @@ image: '../images/comma.webp'
 description: "I worked on the bring-up and lab infrastructure for two new Franka Research 3 7-DOF robotic arms, and am currently developing a real-time obstacle avoidance demo. More..."
 ---
 
-{{< rerun version="0.22.1" url="https://jlruan.me/rerun/comma.rrd" >}}
+{{< rerun version="0.22.1" url="https://github.com/jlruan/portfolio/raw/refs/heads/master/static/rerun/comma.rrd" >}}
 
 I was part of the lab bring-up of Franka Research 3 arms, and implemented containerization for multiple control methods with and without ROS as well as designed network and infrastructure.
 
