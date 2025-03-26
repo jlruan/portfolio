@@ -1,12 +1,32 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
+<<<<<<< HEAD
 {{- $width := .Get "width" | default "100%" -}} <!-- Default to 100% width -->
 {{- $height := .Get "height" | default "1000px" -}}
+=======
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "600px" -}}
+>>>>>>> 71f6377 (fix git cache)
 
 {{ if not $src }}
   {{ warnf "The 'src' parameter is required for the modelviewer shortcode." }}
 {{ else }}
-  <div class="centered-model">
-    <model-viewer src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" auto-rotate camera-controls></model-viewer>
+  <div class="centered-model" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+    <div class="loading-message" style="display: block;">Loading cad... This will take a minute</div>
+    <model-viewer id="cadModel" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" auto-rotate camera-controls></model-viewer>
+    
+    <script>
+        self.ModelViewerElement = self.ModelViewerElement || {};
+        self.ModelViewerElement.meshoptDecoderLocation = 'https://cdn.jsdelivr.net/npm/meshoptimizer/meshopt_decoder.js';
+    </script>
+
+    <script>
+      const modelViewer = document.getElementById('cadModel');
+      const loadingMessage = document.querySelector('.loading-message');
+
+      modelViewer.addEventListener('load', () => {
+        loadingMessage.style.display = 'none';
+      });
+    </script>
   </div>
 {{ end }}
