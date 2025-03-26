@@ -1,12 +1,7 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
-<<<<<<< HEAD
-{{- $width := .Get "width" | default "100%" -}} <!-- Default to 100% width -->
-{{- $height := .Get "height" | default "1000px" -}}
-=======
 {{- $width := .Get "width" | default "100%" -}}
-{{- $height := .Get "height" | default "600px" -}}
->>>>>>> 71f6377 (fix git cache)
+{{- $height := .Get "height" -}}
 
 {{ if not $src }}
   {{ warnf "The 'src' parameter is required for the modelviewer shortcode." }}
