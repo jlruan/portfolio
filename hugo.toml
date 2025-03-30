@@ -16,8 +16,13 @@ numImages = 10                      # Number of random images to choose from for
     unsafe = true
 
 [[params.social]]                 # Customize your social links below!
+    url = "https://jlruan.me/"
+    icon = "/social/house.svg"
+    name = "Home"
+
+[[params.social]]                 # Customize your social links below!
     url = "https://linkedin.com/in/jlruan"
-    icon = "/social/linkedin.svg"
+    icon = "/social/linkedin-2.svg"
     name = "LinkedIn"
 
 [[params.social]]
