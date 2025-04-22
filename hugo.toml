@@ -6,9 +6,9 @@ summaryLength = 20                  # Number of characters in your card summarie
 
 
 [params]
-useToc = true
+useToc = false
 description = "Joseph Ruan's Portfolio"
-paginate = 4                        # Number of posts to show on a list page
+paginate = 8                        # Number of posts to show on a list page
 css = ["css/custom.css"]            # Your custom CSS overrides, stored in yoursite/static/
 numImages = 10                      # Number of random images to choose from for banners (in themes/quint/static/images)
 
